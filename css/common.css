@@ -1,0 +1,121 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper>header {
+    width: 60%;
+    min-width: 400px;
+    padding-top: 10px;
+
+    flex: 1;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    box-sizing: border-box;
+}
+
+header .icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+#_game_icon:hover {
+    background: url("../img/icon/game-console-hover.png");
+}
+
+
+section {
+    width: 60%;
+    min-width: 400px;
+    flex: 5;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+section>header {
+    width: 60%;
+    min-width: 400px;
+    flex: 1;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h3 {
+    font-family: 'Hi Melody', cursive;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-size: 80px;
+    color: rgb(63, 62, 62);
+}
+
+article {
+    /* width: 500px; */
+    width: 60%;
+    min-width: 400px;
+    flex: 5;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#_name {
+    width: 350px;
+    height: 50px;
+    margin: 7px;
+    text-align:center;
+}
+
+#_ready {
+    width: 358px;
+    height:50px;
+    margin: 7px;
+}
+
+.diff {
+    width: 358px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.diff button {
+    width: 90px;
+    height: 90px;
+    
+    border: 0px;
+    border-radius: 5%;
+
+    background-color: rgb(206, 248, 206); 
+
+    font-family: 'Hi Melody', cursive;
+    font-size: 40px;
+    color: rgb(63, 62, 62);
+
+}
+
+footer {
+    width: 60%;
+    min-width: 400px;
+    flex: 1;
+    /* background-color: rgb(124, 124, 31); */
+    display: flex;
+    align-items: flex-end
+}
+
+footer .icon {
+    width: 22px;
+    height: 22px;
+    margin: 5px 18px 5px 5px ;
+}

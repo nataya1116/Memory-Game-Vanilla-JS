@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap&family=Dongle:wght@300;400&display=swap&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/NanumNeuRisNeuRisCe.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="img/icon/game-console.png" id="_game_icon" class="icon" /></a>
+
+            <div class="menu-wrapper">
+                <a href="#"><img src="img/icon/first-prize.png" id="_ranking" class="icon"/></a>
+                <a href="#"><img src="img/icon/settings.png" id="_settings" class="icon"/></a>
+            </div>
+        </header>
+        <section>
+            <header>
+                <h3>Memory</h3>
+                <h3>Game</h3>
+            </header>
+            <article>
+                <div class="game-box">
+                    <div class="game-score">
+                        <div class="clock">
+                            <img src="img/icon/clock.png" class="icon"><div>0s</div>
+                        </div>
+                        <div class="counter">
+                            <img src="img/icon/counter.png" class="icon"><div>0</div>
+                        </div>
+                    </div>
+                    <div id="_card_table">
+
+                    </div>
+                    <div id="_result"></div>
+                    <div id="_recode">
+                        <input type="text" placeholder="이용자명을 입력해주세요." maxlength="10">
+                        <button>입력</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <a href="https://ko-kr.facebook.com/" target="_blank"><img src="img/icon/facebook.png" class="icon" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icon/instagram.png" class="icon" /></a>
+            <a href="https://twitter.com/?lang=ko" target="_blank"><img src="img/icon/twitter.png" class="icon" /></a>
+        </footer>
+    </div>
+</body>
+
+<script src="js/game.js"></script>
+<script src="js/localStorage.js"></script>
+<script src="js/recode.js"></script>
+<script src="js/button.js"></script>
+</html>
