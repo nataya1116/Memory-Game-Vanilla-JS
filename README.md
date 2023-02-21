@@ -46,6 +46,13 @@ Canvas를 사용하지 않고 바닐라 JavaScript를 이용해서 메모리 게
 </br>
 
 ## 📌구현화면
+
+### 게임 시연
+![Memory-Game-Chrome-2023-02-21-11-11-03 (1)](https://user-images.githubusercontent.com/50866572/220230876-c73efab2-8d2d-43d4-a2cc-310596b0b878.gif)
+
+</br>
+</br>
+
 ### 메인 페이지
 ![image](https://user-images.githubusercontent.com/50866572/220227829-531653f7-dd53-49ca-ae7f-b82d5985a045.png)
 
@@ -54,7 +61,6 @@ Canvas를 사용하지 않고 바닐라 JavaScript를 이용해서 메모리 게
 
 ### 게임페이지
 ![image](https://user-images.githubusercontent.com/50866572/220227876-5d3b0048-065e-46ee-8c64-18b5457632e7.png)
-![Memory-Game-Chrome-2023-02-21-11-11-03 (1)](https://user-images.githubusercontent.com/50866572/220230876-c73efab2-8d2d-43d4-a2cc-310596b0b878.gif)
 
 </br>
 </br>
