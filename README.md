@@ -36,7 +36,7 @@ JavaScript, HTML, CSS로 작성되어 있으며 바닐라 JavaScript를 이용�
 
 ### 게임페이지
 ![image](https://user-images.githubusercontent.com/50866572/220227876-5d3b0048-065e-46ee-8c64-18b5457632e7.png)
-![Memory Game - Chrome 2023-02-21 10-44-33](https://user-images.githubusercontent.com/50866572/220228995-48bd3996-f071-4d3c-a654-9f44000d19c8.gif)
+![Memory-Game-Chrome-2023-02-21-10-44-33 (1)](https://user-images.githubusercontent.com/50866572/220229491-3a3800ee-ff05-4b66-bf49-16cf1fdd2544.gif)
 
 
 ### 랭킹페이지
